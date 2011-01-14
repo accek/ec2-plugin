@@ -40,7 +40,7 @@
     <dependency>
       <groupId>com.google.code.typica</groupId>
       <artifactId>typica</artifactId>
-      <version>1.6</version>
+      <version>1.6.0.1</version>
     </dependency>
   </dependencies>
 
@@ -51,6 +51,16 @@
       <email>kohsuke@infradna.com</email>
     </developer>
   </developers>
+
+  <repositories>
+    <repository>
+      <id>sio-typica</id>
+      <name>sio-typica</name>
+      <url>http://ripper.dasie.mimuw.edu.pl/~accek/sio-worker/mvn-repo/</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+
 
 </project>
 
